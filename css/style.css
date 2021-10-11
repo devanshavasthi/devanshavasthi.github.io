@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	overflow: hidden;
+}
+
+.max{
+	max-width: 1300px;
+	margin: auto;
+	padding: 15px 80px;
+}
+
+.max .page-head{
+	margin-top: 50px;
+	font-size: 25px;
+	justify-content: center;
+	font-family: 'Ubuntu',sans-serif;
+	display: flex;
+}
+
+/* Navigation */
+.navbar{
+	position: fixed; 
+	width: 100%;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .bar li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.navbar .bar li a{
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 25px;
+	color: #000;
+	transition: color 0.3s ease;
+}
+
+.navbar .bar li a:hover{
+	color: #2e9cca;
+}
+
+.navbar .logo a{
+	font-size: 40px;
+	font font-weight: 600;
+	color: #000;
+}
+
+.navbar .logo a span{
+	color: #2e9cca;
+}
+
+.navbar .max{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Home */
+
+#home-p{
+	font-size: 27px;
+}
+
+#home-p1{
+	font-size: 20px;
+	margin-right: 40px;
+}
+
+#home-h1{
+	font-size: 55px;
+	font-weight: 600;
+}
+
+.home{
+	background: url("./images/background.jpeg") no-repeat center;
+	background-size: cover;
+	padding: 50px;
+	min-height: 100vh;
+}
+
+.home .max .home-content{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+  	align-items: center;
+} 
+
+.home .max .home-content .home-text{
+	width: 60%;
+	float: left;
+	align-items: center;
+	font-family: 'Ubuntu',sans-serif;
+}
+
+.home .max .home-content .home-text a{
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 20px;
+	padding: 12px 36px;
+	font-weight: 400;
+	border-radius: 6px;
+	border: 2px solid #000;
+	transition: all 0.3s ease;
+}
+
+.home .max .home-content .home-text a:hover{
+	color: #000;
+	background: none;
+}
+
+.home .max .home-content .home-img{
+	width: 40%;
+	float: right;
+	align-items: center;
+	justify-content: center;
+}
+
+.home .max .home-content .home-img .img-box{
+	max-width: 100%;
+	height: 70%;
+	margin-left: 70px;
+	margin-top: -70px;
+	border-radius: 48%;
+}
+
+.home .max .home-content .home-img .img-box img{
+	border-radius: 48%;
+	width: 100%;
+	border: 10px solid transparent;
+	box-shadow: 6px 6px 5px 6px #ccc;
+}
+
+.home .max .home-content .home-img .icon-box{
+	height: 30%;
+	margin-left: 70px;
+	margin-bottom: -20px;
+}
+
+.home .max .home-content .home-img .icon-box .fab , 
+.home .max .home-content .home-img .icon-box .fas{
+	padding: 20px 39px;
+	color: black;
+}
+
+/* About */
+.about{
+	background: url("./images/background.jpeg") no-repeat center;
+	background-size: cover;
+	padding: 50px;
+	min-height: 100vh;
+}
+
+.about .max .my-detail{
+	width: 30%;
+	float: left;
+	height: 100vh;
+}
+
+.about .max .my-description{
+	width: 70%;
+	float: right;
+	height: 100vh;
+}
+
+.about .max .about-content .my-detail .called{
+	text-align: center;
+}
+
+.about .max .about-content .my-detail .called h1{
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about .max .about-content .my-detail .photo{
+	text-align: center;
+}
+
+.about .max .about-content .my-detail .photo img{
+	margin-top: 15%;
+	width: 90%;
+	border-radius: 50%;
+	border: 10px solid transparent;
+	box-shadow: 3px 3px 2px 3px #ccc;
+}
+
+.about .max .about-content .my-description .bio{
+	margin-top: 20px;
+}
+
+.about .max .about-content .my-description .about-p{
+	margin-top: 25px;
+	font-size: 25px;
+	font-family: 'Ubuntu',sans-serif;
+}
+
+.about .max .about-content .my-description .bio .inside a{
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 20px;
+	padding: 12px 36px;
+	font-weight: 400;
+	border-radius: 6px;
+	border: 2px solid #000;
+	transition: all 0.3s ease;
+}
+
+.about .max .about-content .my-description .bio .inside a:hover{
+	color: #000;
+	background: none;
+}
+
+/* Contact */
+.contact{
+	background: url("./images/background.jpeg") no-repeat center;
+	background-size: cover;
+	padding: 50px;
+	min-height: 100vh;
+}
+
+.contact .max .contact-detail{
+	min-height: 80vh;
+	width: 40%;
+	margin: auto;
+	display: flex;
+	float: left;
+    justify-content: center;
+  	align-items: center;
+  	font-family: 'Ubuntu',sans-serif;
+}
+
+.contact .max .contact-detail .feedback h1{
+	font-weight: 600;
+	font-size: 25px;
+	margin-top: -180px;
+	margin-bottom: 20px;
+}
+
+.contact .max .contact-detail .feedback .feed-p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.contact .max .contact-detail .feedback .feed-details{
+	margin-bottom: 40px;
+	display: flex;
+}
+
+.contact .max .contact-detail .feedback .feed-details .fas{
+	margin-right: 15px;
+}
+
+.contact .max .contact-tab{
+	width: 60%;
+	min-height: 80vh;
+	margin: auto;
+	display: flex;
+	float: right;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Ubuntu',sans-serif;
+}
+
+.contact .max .contact-tab .contact-form .message h1{
+	text-align: center;
+	font-weight: 600;
+	font-size: 25px;
+	margin-top: -180px;
+	margin-bottom: 20px;
+}
+
+.contact .max .contact-tab .contact-form form .box input{
+	height: 40px;
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 15px;
+	border: 1px solid lightgrey;
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .max .contact-tab .contact-form form .box textarea{
+	border: 1px solid lightgrey;
+	margin-left: 5%;
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.contact .max .contact-tab .contact-form form .box-button button{
+	height: 40px;
+	width: 100px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 42%;
+    background: #000;
+	color: #fff;
+	transition: all o.3s ease;
+}
+
+.contact .max .contact-tab .contact-form form .box-button button:hover{
+	color: #000;
+	background: none;
+}
+
+.contact .max .foot{
+	text-align: center;
+}
+
+/* ------ for mobile device ------ */
+
+@media only screen and (max-width: 500px){
+.max{
+	max-width: 1300px;
+	margin: auto;
+	padding: 7px 40px;
+}
+
+.max .page-head{
+	margin-top: 15px;
+	font-size: 15px;
+	justify-content: center;
+	font-family: 'Ubuntu',sans-serif;
+	display: flex;
+}
+
+.navbar{
+	position: fixed; 
+	width: 100%;
+	padding: 15px 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .bar li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.navbar .bar li a{
+	font-size: 10px;
+	font-weight: 500;
+	margin-left: 10px;
+	color: #000;
+	transition: color 0.3s ease;
+}
+
+.navbar .bar li a:hover{
+	color: #2e9cca;
+}
+
+.navbar .logo a{
+	font-size: 20px;
+	font font-weight: 600;
+	color: #000;
+}
+
+.navbar .logo a span{
+	color: #2e9cca;
+}
+
+.navbar .max{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Home */
+
+#home-p{
+	font-size: 17px;
+}
+
+#home-p1{
+	font-size: 10px;
+	margin-right: 40px;
+}
+
+#home-h1{
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.home{
+	background: url("./images/background.jpeg") no-repeat center;
+	background-size: cover;
+	padding: 50px;
+	min-height: 100vh;
+}
+
+.home .max .home-content .home-text{
+	height: 30%;
+	width: 100%;
+	float: bottom;
+	align-items: center;
+	font-family: 'Ubuntu',sans-serif;
+}
+
+.home .max .home-content .home-text a{
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 7px 26px;
+	font-weight: 400;
+	border-radius: 3px;
+	border: 1px solid #000;
+	transition: all 0.3s ease;
+}
+
+.home .max .home-content .home-img{
+	height: 50%;
+	width: 100%;
+	float: top;
+	align-items: center;
+	justify-content: center;
+}
+
+.home .max .home-content .home-img .img-box{
+	max-width: 100%;
+	height: 90%;
+	margin-left: 40px;
+	margin-top: -70px;
+	border-radius: 48%;
+}
+
+.home .max .home-content .home-img .img-box img{
+	border-radius: 48%;
+	width: 100%;
+	border: 5px solid transparent;
+	box-shadow: 3px 3px 2px 3px #ccc;
+}
+
+.home .max .home-content .home-img .icon-box{
+	height: 30%;
+	margin-left: 40px;
+	margin-bottom: -20px;
+}
+
+.home .max .home-content .home-img .fab , 
+.home .max .home-content .home-img .fas{
+	font-size: 20px;
+	color: black;
+}
+
+/* About */
+.about{
+	background: url("./images/background.jpeg") no-repeat center;
+	background-size: cover;
+	padding: 50px;
+	min-height: 100vh;
+}
+
+.about .max .my-detail{
+	width: 100%;
+	float: top;
+	height: 20%;
+}
+
+.about .max .my-description{
+	width: 100%;
+	float: bottom;
+	height: 80%;
+}
+
+.about .max .about-content .my-detail .called{
+	text-align: center;
+}
+
+.about .max .about-content .my-detail .called h1{
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about .max .about-content .my-detail .photo{
+	text-align: center;
+}
+
+.about .max .about-content .my-detail .photo img{
+	margin-top: 15%;
+	width: 65%;
+	border-radius: 50%;
+	border: 5px solid transparent;
+	box-shadow: 2px 2px 1px 2px #ccc;
+}
+
+.about .max .about-content .my-description .bio{
+	width: 100%;
+	margin-top: 5px;
+}
+
+.about .max .about-content .my-description .about-p{
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: 'Ubuntu',sans-serif;
+}
+
+.about .max .about-content .my-description .bio .inside a{
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	margin-top: 7px;
+	padding: 6px 18px;
+	font-weight: 400;
+	border-radius: 3px;
+	border: 1px solid #000;
+	transition: all 0.3s ease;
+}
+
+/* Contact */
+.contact{
+	background: url("./images/background.jpeg") no-repeat center;
+	background-size: cover;
+	padding: 50px;
+	min-height: 100vh;
+}
+
+.contact .max .contact-detail{
+	min-height: 40%;
+	width: 100%;
+	margin-top: 200px;
+	display: flex;
+	float: top;
+    justify-content: center;
+  	align-items: center;
+  	font-family: 'Ubuntu',sans-serif;
+}
+
+.contact .max .contact-detail .feedback h1{
+	font-weight: 600;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.contact .max .contact-detail .feedback h3,
+.contact .max .contact-detail .feedback p{
+	font-size: 15px;
+}
+
+.contact .max .contact-detail .feedback .feed-p{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.contact .max .contact-detail .feedback .feed-details{
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.contact .max .contact-detail .feedback .feed-details .fas{
+	font-size: 10px;
+	margin-right: 10px;
+}
+
+.contact .max .contact-tab{
+	width: 100%;
+	min-height: 40%;
+	margin-top: 170px;
+	display: flex;
+	float: bottom;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Ubuntu',sans-serif;
+}
+
+.contact .max .contact-tab .contact-form .message h1{
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.contact .max .contact-tab .contact-form form .box input{
+	height: 40px;
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 7px;
+	border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 7px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .max .contact-tab .contact-form form .box textarea{
+	border: 1px solid lightgrey;
+	margin-left: 5%;
+    border-radius: 3px;
+    font-size: 7px;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    margin-bottom: 7px;
+}
+
+.contact .max .contact-tab .contact-form form .box-button button{
+	height: 20px;
+	width: 60px;
+    border-radius: 3px;
+    font-size: 7px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 42%;
+    background: #000;
+	color: #fff;
+	transition: all o.3s ease;
+}
+
+.contact .max .foot{
+	margin-top: 580px;
+	font-size: 10px;
+	text-align: center;
+}
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="./fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body onload="startTime()">
+	<!--navigation-->
+	<nav class="navbar">
+		<div class="max">
+			<div class="logo"><a href="javascript:home();">Portfo<span>lio.</span></a></div>
+			<ul class="bar">
+				<li><a href="javascript:home();">Home</a></li>
+				<li><a href="javascript:about();">About</a></li>
+				<li><a href="javascript:contact();">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!--Home-->
+	<section class="home" id="home">
+		<div class="max">
+			<div class="home-content">
+				<div class="home-text">
+					<p id="home-p">Hello,</p>
+					<h1 id="home-h1">I'm Devansh Avasthi</h1>
+					<p id="home-p1">I am currently a MTech student at IIIT Hyderabad. I am a chilled out progragrammer, who likes to automate stuff. To know more about me, you can click on below button.</p>
+					<a href="javascript:about();">More</a>
+				</div>
+				<div class="home-img">
+					<div class="img-box">
+						<img src="./images/profile.png" alt="profile-picture">
+					</div>
+					<div class="icon-box">
+						<a href="https://github.com/devanshavasthi"><i class="fab fa-github fa-3x"></i></a>
+						<a href="https://www.hackerrank.com/2021201027_dev"><i class="fab fa-hackerrank fa-3x"></i></a>
+						<a href="javascript:contact();"><i class="fas fa-envelope fa-3x"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--About-->
+	<section class="about" id="about">
+		<div class="max">
+			<div class="about-content">
+				<div class="page-head">
+					<h1>About me</h1>
+				</div>
+				<div class="my-detail">
+					<div class="photo">
+						<img src="./images/profile2.png" alt="another-picture">
+					</div>
+					<div class="called">
+						<h1>Devansh Avasthi</h1>
+					</div>
+				</div>
+				<div class="my-description">
+					<div class="bio">
+						<p class="about-p">I am currently a Mtech student at <a href="https://www.iiit.ac.in/">International Institute of Technology Hyderabed</a>.</p>
+						<p class="about-p">I have completed by schooling from <a href="http://amrutschool.edu.in">Amrut School</a>, Ahmedabad in the year 2017. After that I have completed my graduation in Bachelors of Engineering from <a href="https://www.ldrp.ac.in/">LDRP Institute of Technology and Research</a>, Gandhinagar in the year 2021.</p>
+						<p class="about-p">During my graduation, I have done projects in the field of Machine Learning and Artificial Intelligence, which was the key reason for my interest towards this area. One of the project related to ML (Driving License Controlled Smart Vehicle) was presented in the grand finale of <a href="http://ssipgujarat.in">Gujarat Industrial Hackathon</a>. Other major projects were on the field of Computer Vision and Deep learning.</p>
+						<p class="about-p">Apart from programming, I use to read books or listen to music in my free time.</p>
+						<p class="about-p">For hiring, or to know more about me, you can go through my CV below.</p>
+						<span class="inside"><a href="./attached_cv/Devansh.pdf">Download CV</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--contact-->
+	<section class="contact" id="contact">
+		<div class="max">
+			<div class="contact-content">
+				<div class="page-head">
+					<h1>Contact me</h1>
+				</div>
+				<div class="contact-detail">
+					<div class="feedback">
+						<h1>Feedback</h1>
+						<p class="feed-p">This portfolio is always open for constructive feedbacks. Please feel free to drop your comment here in the form. You can also contact me through the form in the right.</p>
+						<table width="100%">
+							<tr class="feed-details">
+								<td>
+									<i class="fas fa-user fa-2x"></i>
+								</td>
+								<td colspan="2">
+									<h3>Name</h3>
+							 		<p>Devansh Avasthi</p>
+								</td>
+							</tr>
+							<tr class="feed-details">
+								<td>
+									<i class="fas fa-map-marker-alt fa-2x"></i>
+								</td>
+								<td colspan="2">
+									<h3>Address</h3>
+							 		<p>Gujarat, India</p>
+								</td>
+							</tr>
+							<tr class="feed-details">
+								<td>
+									<i class="fas fa-envelope fa-2x"></i>
+								</td>
+								<td colspan="2">
+									<h3>Email</h3>
+								 	<p>devansh.avasthi@students.iiit.ac.in</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="contact-tab">
+					<div class="contact-form">
+						<div class="message">
+							<h1>Message Box</h1>
+						</div>
+						<form>
+							<div class="box">
+								<input type="text" placeholder="Your Name.." required>
+								<input type="email" placeholder="Your Email.." required>
+								<input type="text" placeholder="Subject.." required>
+							</div>
+							<div class="box">
+								<textarea cols="45" rows="5" placeholder="Your Message.." required></textarea>
+							</div>
+							<div class="box-button">
+								<button type="submit">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<footer class="foot">
+        			<span>Created By Devansh Avasthi | <span class="far fa-copyright"></span> 2021 All rights reserved | <span id="clocktime"></span></span>
+    			</footer>
+			</div>
+			
+		</div>
+		
+	</section>
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
