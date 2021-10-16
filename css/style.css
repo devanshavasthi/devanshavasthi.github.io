@@ -328,6 +328,10 @@ body{
 /* ------ for mobile device ------ */
 
 @media only screen and (max-width: 500px){
+body{
+	overflow: hidden;
+}
+	
 .max{
 	max-width: 1300px;
 	margin: auto;
